@@ -1,0 +1,4 @@
+abstract class abs1{
+ private int i;
+ void mul(int i);
+}

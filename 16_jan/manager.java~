@@ -1,0 +1,25 @@
+class manager extends Employee{
+private int prop;
+private int cabin;
+
+  manager(String s,int e,int sa,int prop,int c)
+  {
+  super(s,e,sa);
+  prop=this.prop;
+  cabin=c;
+ 
+  }
+  String getname()
+  {
+    
+  }
+   int getprop()
+   {
+    return prop;
+   }
+   int getcabin()
+   {
+     return cabin;
+   }
+   
+}

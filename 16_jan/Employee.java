@@ -1,0 +1,30 @@
+class Employee{
+private String name;
+private int emp_id;
+private int sal;
+  Employee(){
+    name="NOT_MENTIONED";
+    emp_id=0;
+    sal=0;
+  }
+  Employee(String name,int id,int sal)
+  {
+    this.name=name;
+    emp_id=id;
+     this.sal=sal;
+  }
+  int getSal()
+  {
+     return sal;
+     
+  }
+   String getname()
+  {
+   return name;
+  }
+ int getid()
+  {
+   return emp_id;
+  }
+}
+
